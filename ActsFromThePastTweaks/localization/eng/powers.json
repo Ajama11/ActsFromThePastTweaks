@@ -1,0 +1,9 @@
+{
+  "ACTSFROMTHEPASTTWEAKS-TIME_WARP_REPLACEMENT_POWER.title": "Time Warp",
+  "ACTSFROMTHEPASTTWEAKS-TIME_WARP_REPLACEMENT_POWER.description": "Whenever you play [blue]12[/blue] cards, your turn ends and you receive [blue]2[/blue] additional damage from [gold]Time Eater[/gold].",
+  "ACTSFROMTHEPASTTWEAKS-TIME_WARP_REPLACEMENT_POWER.smartDescription": "Whenever {PlayerName} plays [blue]{Countdown}[/blue] cards, their turn ends and they receive [blue]2[/blue] additional damage from [gold]{ApplierName}[/gold].\n([blue]{CardCount}[/blue]/[blue]{Countdown}[/blue] cards played.)",
+
+  "ACTSFROMTHEPASTTWEAKS-TIME_WARPED_POWER.title": "Time Warped",
+  "ACTSFROMTHEPASTTWEAKS-TIME_WARPED_POWER.description": "Take [blue]2[/blue] additional damage from [gold]Time Eater[/gold].",
+  "ACTSFROMTHEPASTTWEAKS-TIME_WARPED_POWER.smartDescription": "Take [blue]{Amount}[/blue] additional damage from [gold]{ApplierName}[/gold]."
+}
