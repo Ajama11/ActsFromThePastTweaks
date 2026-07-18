@@ -5,5 +5,15 @@
 
   "ACTSFROMTHEPASTTWEAKS-TIME_WARPED_POWER.title": "Time Warped",
   "ACTSFROMTHEPASTTWEAKS-TIME_WARPED_POWER.description": "Take [blue]2[/blue] additional damage from [gold]Time Eater[/gold].",
-  "ACTSFROMTHEPASTTWEAKS-TIME_WARPED_POWER.smartDescription": "Take [blue]{Amount}[/blue] additional damage from [gold]{ApplierName}[/gold]."
+  "ACTSFROMTHEPASTTWEAKS-TIME_WARPED_POWER.smartDescription": "Take [blue]{Amount}[/blue] additional damage from [gold]{ApplierName}[/gold].",
+
+  "ACTSFROMTHEPASTTWEAKS-SHIFTING_REPLACEMENT_POWER.title": "Shifting",
+  "ACTSFROMTHEPASTTWEAKS-SHIFTING_REPLACEMENT_POWER.description": "When the [gold]Transient[/gold] loses HP, the attacker takes that much less damage from the [gold]Transient[/gold] this turn.\n\nIf there is no attacker, like with [gold]Poison[/gold], then the [gold]Transient[/gold] loses that much [gold]Strength[/gold] this turn.",
+  "ACTSFROMTHEPASTTWEAKS-SHIFTING_REPLACEMENT_POWER.smartDescription": "When the [gold]Transient[/gold] loses HP, the attacker takes that much less damage from the [gold]Transient[/gold] this turn.\n\nIf there is no attacker, like with [gold]Poison[/gold], then the [gold]Transient[/gold] loses that much [gold]Strength[/gold] this turn.",
+
+  "ACTSFROMTHEPASTTWEAKS-SHIFTING_WARD_POWER.title": "Shifting Ward",
+  "ACTSFROMTHEPASTTWEAKS-SHIFTING_WARD_POWER.description": "Take less damage from the [gold]Transient[/gold] this turn.",
+  "ACTSFROMTHEPASTTWEAKS-SHIFTING_WARD_POWER.smartDescription": "Take [blue]{Amount}[/blue] less damage from the [gold]Transient[/gold] this turn.",
+
+  "ACTSFROMTHEPASTTWEAKS-SHIFTING_STRENGTH_DOWN_REPLACEMENT_POWER.title": "Strength Down"
 }
