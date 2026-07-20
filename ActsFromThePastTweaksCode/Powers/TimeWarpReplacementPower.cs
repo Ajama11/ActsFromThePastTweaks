@@ -93,9 +93,34 @@ public class TimeWarpReplacementPower() : ActsFromThePastTweaksPower
             InvokeDisplayAmountChanged();
             
             Flash();
-            AFTPModAudio.Play("time_eater", "time_warp");
-            BorderFlashEffect.PlayGold();
-            NCombatRoom.Instance?.CombatVfxContainer.AddChildSafely(TimeWarpTurnEndEffect.Create());
+
+            if (LocalContext.IsMe(Player))
+            {
+                AFTPModAudio.Play("time_eater", "time_warp");
+                BorderFlashEffect.PlayGold();
+                NCombatRoom.Instance?.CombatVfxContainer.AddChildSafely(TimeWarpTurnEndEffect.Create());
+            }
+            else
+            {
+                switch (Config.PlayOtherPlayersTimeWarpEffects)
+                {
+                    case Config.TimeWarpEffects.Everything:
+                        AFTPModAudio.Play("time_eater", "time_warp");
+                        BorderFlashEffect.PlayGold();
+                        NCombatRoom.Instance?.CombatVfxContainer.AddChildSafely(TimeWarpTurnEndEffect.Create());
+                        break;
+                    case Config.TimeWarpEffects.Visuals:
+                        BorderFlashEffect.PlayGold();
+                        NCombatRoom.Instance?.CombatVfxContainer.AddChildSafely(TimeWarpTurnEndEffect.Create());
+                        break;
+                    case Config.TimeWarpEffects.Audio:
+                        AFTPModAudio.Play("time_eater", "time_warp");
+                        break;
+                    case Config.TimeWarpEffects.Nothing:
+                    default:
+                        break;
+                }
+            }
             
             PlayerCmd.EndTurn(Player, false);
             

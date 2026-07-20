@@ -1,0 +1,5 @@
+{
+  "ACTSFROMTHEPASTTWEAKS.mod_title": "Acts from the Past: Multiplayer Tweaks",
+  "ACTSFROMTHEPASTTWEAKS-PLAY_OTHER_PLAYERS_TIME_WARP_EFFECTS.title": "Play Time Warp Effects from Other Players",
+  "ACTSFROMTHEPASTTWEAKS-PLAY_OTHER_PLAYERS_TIME_WARP_EFFECTS.hover.desc": "When Time Eater forcibly ends someone's turn, a spinning clock will appear on their screen with a sound.\nThis setting controls what happens on your screen when that happens to another player.\n[gold]Everything[/gold]: The clock will appear with audio.\n[gold]Visuals[/gold]: The clock will appear, but there will be no audio with it.\n[gold]Audio[/gold]: The audio will play, but there will be no clock with it.\n[gold]Nothing[/gold]: You will see and hear nothing."
+}
