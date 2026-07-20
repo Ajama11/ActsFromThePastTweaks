@@ -15,5 +15,13 @@
   "ACTSFROMTHEPASTTWEAKS-SHIFTING_WARD_POWER.description": "Take less damage from the [gold]Transient[/gold] this turn.",
   "ACTSFROMTHEPASTTWEAKS-SHIFTING_WARD_POWER.smartDescription": "Take [blue]{Amount}[/blue] less damage from the [gold]Transient[/gold] this turn.",
 
-  "ACTSFROMTHEPASTTWEAKS-SHIFTING_STRENGTH_DOWN_REPLACEMENT_POWER.title": "Strength Down"
+  "ACTSFROMTHEPASTTWEAKS-SHIFTING_STRENGTH_DOWN_REPLACEMENT_POWER.title": "Strength Down",
+
+  "ACTSFROMTHEPASTTWEAKS-ENRAGE_REPLACEMENT_POWER.title": "Enrage",
+  "ACTSFROMTHEPASTTWEAKS-ENRAGE_REPLACEMENT_POWER.description": "Whenever you play a Skill, you take [blue]3[/blue] additional damage from this enemy.",
+  "ACTSFROMTHEPASTTWEAKS-ENRAGE_REPLACEMENT_POWER.smartDescription": "Whenever you play a Skill, you take [blue]{Amount}[/blue] additional damage from [gold]{ApplierName}[/gold].",
+
+  "ACTSFROMTHEPASTTWEAKS-DRAWN_IRE_POWER.title": "Drawn Ire",
+  "ACTSFROMTHEPASTTWEAKS-DRAWN_IRE_POWER.description": "Take [blue]3[/blue] additional damage from the enemy while they're alive.",
+  "ACTSFROMTHEPASTTWEAKS-DRAWN_IRE_POWER.smartDescription": "Take [blue]{Amount}[/blue] additional damage from [gold]{ApplierName}[/gold] while they're alive."
 }
