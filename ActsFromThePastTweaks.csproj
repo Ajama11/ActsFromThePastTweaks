@@ -26,7 +26,7 @@
             <Private>false</Private>
         </Reference>
         <Reference Include="aftp">
-            <HintPath>$(Sts2Path)/mods/ActsFromThePast/ActsFromThePast.dll</HintPath>
+            <HintPath>$(Sts2Path)/../../workshop/content/2868840/3746969593/ActsFromThePast.dll</HintPath>
             <Private>false</Private>
         </Reference>
     </ItemGroup>
